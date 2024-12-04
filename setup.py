@@ -17,13 +17,13 @@ if not os.path.isdir(directory):
     os.mkdir(directory)
     
 if not os.path.isfile(f"{directory}/input.txt"):
-    with open(f"{directory}/input.txt") as f:
-        pass
+    with open(f"{directory}/input.txt", "w") as f:
+        f.write("\n")
     
 if not os.path.isfile(f"{directory}/solution1.py"):
     with open(f"{directory}/solution1.py", "w") as f:
-        pass
+        f.write("\n")
     
 if not os.path.isfile(f"{directory}/solution2.py"):
     with open(f"{directory}/solution2.py", "w") as f:
-        pass
+        f.write("\n")
