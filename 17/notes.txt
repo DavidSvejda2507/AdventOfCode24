@@ -1,0 +1,9 @@
+
+B = A&7
+B = B^3
+C = A>>B
+B = B^5
+B = B^C
+print(B)
+A = A>>3
+jump 0
